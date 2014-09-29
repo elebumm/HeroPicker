@@ -9,10 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>The Big Picture - Start Bootstrap Template</title>
+    <title>DOTA 2 HERO PICKER</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+
 
     <!-- Custom CSS -->
     <link href="css/the-big-picture.css" rel="stylesheet">
@@ -25,19 +28,15 @@
     <![endif]-->
 
 	<link rel="stylesheet" href="bower_components/BigVideo/css/bigvideo.css">
-	
+    <script type="text/javascript" src="js/jquery-1.10.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.22.custom.min.js"></script>
+    <script type="text/javascript" src="js/jquery.imagesloaded.js"></script>
+    <script type="text/javascript" src="js/video.js"></script>
+    <script type="text/javascript" src="js/bigvideo.js"></script>
 	
 </head>
 <body>
-	<script>
-	$(function() {
-	    var BV = new $.BigVideo();
-	    BV.init();
-	    BV.show('img/dota2.mp4',{ambient:true});
-	});
-	
-	
-	</script>
+
 <?php
 /*
 //phpMyAdmin Credentials.
@@ -79,56 +78,52 @@ mysqli_close($con);
 ?>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
+    
+<a href="https://github.com/elebumm/heropicker"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
     <!-- Page Content -->
+   <div class="wrapper">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <h1>The Big Picture</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, iusto, unde, sunt incidunt id sapiente rerum soluta voluptate harum veniam fuga odit ea pariatur vel eaque sint sequi tenetur eligendi.</p>
-            </div>
+            
+                <h1 id="title">Hero Picker</h1>
+                <p id="slogan">Let me guess, you are about to find a match and you have no idea who to play. You dominated 2k MMR with Viper but are no longer able to snowball into late game. You have come to the right place my friend.</p>
+				
         </div>
-        <!-- /.row -->
-    </div>
+		<div id="container4buttons">
+		<div class="btn-group btn-group-lg" id="buttongroupy">
+			<button type="button" class="btn btn-primary btn-lg btn-block" id="buttony">All</button>
+		  <button type="button" class="btn btn-default" id="buttony1">Strength</button>
+		  <button type="button" class="btn btn-default" id="buttony2">Agility</button>
+		  <button type="button" class="btn btn-default" id="buttony3">Intelligence</button>
+		</div>
+	</div>
+		<p id="copyright">Dota 2 is a registered trademark of Valve Corporation.</p>
+    
+	
+	
+	
+	</div>
+</div>
     <!-- /.container -->
+
+
+
 
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-	
-	<script src="js/bigvideo.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.css"></script>
 
+	<script>
+	$(function() {
+	    var BV = new $.BigVideo();
+	    BV.init();
+	    BV.show('img/dota2.mp4',{ambient:true});
+	});
+	
+	
+	</script>
 </body>
 </html>
