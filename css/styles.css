@@ -16,7 +16,8 @@ html, body {
 	font-family: dotafont;
 	font-size: 95px;
 	text-align: center;
-	
+	position: relative;
+	color: white;
 }
 
 
@@ -35,6 +36,8 @@ img.center {
 #slogan {
 	font-size: 16px;
 	text-align: center; 
+	position: relative;
+	color: white;
 }
 
 #copyright {
@@ -84,3 +87,11 @@ big-video-wrap{overflow:hidden;position:fixed;height:100%;width:100%;top:0;left:
 #big-video-control .ui-slider-handle{border-left:solid 1px #fff; width:16px;height:16px;position:absolute;top:-8px;}
 .transparent{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0;opacity:0;}
 .vjs-big-play-button{display:none !important;}
+
+
+
+#shit {
+	background-color: black;
+	position: relative;
+	 opacity: 0.7;
+}
