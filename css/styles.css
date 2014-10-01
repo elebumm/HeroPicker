@@ -1,15 +1,13 @@
+@font-face {
+    font-family: dotafont;
+    src: url(Constantia.ttf);
+}
+
 html, body {
     margin: 0;
     padding: 0;
     color: #fff;
     overflow: hidden;
-}
-
-
-
-@font-face {
-    font-family: dotafont;
-    src: url(Constantia.ttf);
 }
 
 #title {
@@ -19,7 +17,6 @@ html, body {
 	position: relative;
 	color: white;
 }
-
 
 img.center {
 	display: block;
@@ -43,10 +40,9 @@ img.center {
 #copyright {
 	position: absolute;
 	bottom: 0px;
-
-	
 }
-#buttony{
+
+#buttony /*Probably pick better names for these so in the future you don't get uber confused :P */{
 	background-color: #000000;
 	font-size: 30px;
 	font-family: dotafont;
@@ -88,7 +84,13 @@ big-video-wrap{overflow:hidden;position:fixed;height:100%;width:100%;top:0;left:
 .transparent{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0;opacity:0;}
 .vjs-big-play-button{display:none !important;}
 
-
+#yolo /*Just for testing */{
+    background: white;
+    position: relative;
+    opacity: 0.7;
+    width: 30%;
+    margin-left: 0px;
+}
 
 #shit {
 	background-color: black;
