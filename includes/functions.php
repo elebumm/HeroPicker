@@ -11,7 +11,7 @@ function get_heroes() {
 
 function get_hero($name) {
     global $con;
-    $result = mysqli_query($con, "SELECT * FROM heroes WHERE name = '$name'");
+    $result = mysqli_query($con, "SELECT name FROM heroes ORDER BY RAND() LIMIT 1");
     if(!$result) {
         die(mysqli_error($con));
     }
