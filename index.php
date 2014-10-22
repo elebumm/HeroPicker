@@ -65,7 +65,7 @@
                 $name = "some hero"; //Turn this into a form value at some point if wanted
                 $hero = get_hero($name);
                 echo "Name: " . $hero->name . "<br />";
-                echo "Type: " . $hero->type;
+                echo "Type: " . $hero->attribute;
             ?>
         </div>
 		<p id="copyright">Dota 2 is a registered trademark of Valve Corporation.</p>
