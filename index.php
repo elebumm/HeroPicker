@@ -53,6 +53,18 @@
               <button type="button" class="btn btn-default" id="buttony3">Intelligence</button>
             </div>
 	    </div>
+<<<<<<< HEAD
+
+
+
+
+
+
+
+<!-- Modal -->
+
+        
+=======
         <div class="row" id="yolo">
             
             <hr />
@@ -61,11 +73,16 @@
                 $name = "some hero"; //Turn this into a form value at some point if wanted
                 $hero = get_hero($name);
                 echo "Name: " . $hero->name . "<br />";
+<<<<<<< HEAD
+=======
+                echo "Type: " . $hero->attribute;
+>>>>>>> origin/BigVideo.JS-fix
             ?>
         </div>
+>>>>>>> origin/BigVideo.JS-fix
 		<p id="copyright">Dota 2 is a registered trademark of Valve Corporation.</p>
-    </div>
-</div>
+        <p id="information">Dota 2 background is made by <a href="http://vimeo.com/krez113">krez113 on vimeo</a></p>
+
     <!-- /.container -->
     <!-- jQuery Version 1.11.0 -->
     <!-- Bootstrap Core JavaScript -->
@@ -86,8 +103,6 @@
         BV.show('img/dota2.mp4',{ambient:true});
     });
     </script>
-    <script>
-video();
-    </script>
+
 </body>
 </html>

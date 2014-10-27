@@ -55,31 +55,56 @@ img.center {
 #copyright {
 	position: absolute;
 	bottom: 0px;
+	color: white;
+	font-size: 20px;
 }
 
 #buttony /*Probably pick better names for these so in the future you don't get uber confused :P */ /*Oh... I never forget things.... never....*/{
 	background-color: #000000;
+<<<<<<< HEAD
 	font-size: 22px;
 	font-family: dotafont;
 	border-radius: 0px;
+=======
+	font-size: 30.5px;
+	font-family: dotafont;
+	border-radius: 0px;
+	height: 70px;
+>>>>>>> origin/BigVideo.JS-fix
 }
 
 #buttony1 {
 	font-family: dotafont;
 	font-size: 30.5px;
 	background-color: #CB2322;
+	height: 80px;
 }
 #buttony2 {
 	font-family: dotafont;
 	font-size: 30.5px;
 	background-color: #3A7736;
+	height: 80px;
 }
 #buttony3 {
 	font-family: dotafont;
 	font-size: 30px;
 	background-color: #1776A0;
 	border-radius: 0px;
+<<<<<<< HEAD
+=======
+	height: 80px;
 }
+#information{
+	position: absolute;
+	bottom: 0px;
+	right: 50px;
+	color: white;
+	float: right;
+	font-family: dotafont;
+	font-size: 15px;
+>>>>>>> origin/BigVideo.JS-fix
+}
+
 
 big-video-wrap{overflow:hidden;position:fixed;height:100%;width:100%;top:0;left:0;}
 #big-video-vid,#big-video-image{position:absolute;}
