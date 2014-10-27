@@ -53,7 +53,35 @@
               <button type="button" class="btn btn-default" id="buttony3">Intelligence</button>
             </div>
 	    </div>
+<<<<<<< HEAD
 
+=======
+
+
+
+
+
+
+
+
+<!-- Modal -->
+
+        
+
+        <div class="row" id="yolo">
+            
+            <hr />
+            <h2>Your picked hero:</h2>
+            <?php
+                $name = "some hero"; //Turn this into a form value at some point if wanted
+                $hero = get_hero($name);
+                echo "Name: " . $hero->name . "<br />";
+
+
+            ?>
+        </div>
+
+>>>>>>> origin/master
 		<p id="copyright">Dota 2 is a registered trademark of Valve Corporation.</p>
         <p id="information">Dota 2 background is made by <a href="http://vimeo.com/krez113">krez113 on vimeo</a></p>
 
