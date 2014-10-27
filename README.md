@@ -1,1 +1,7 @@
-Hero Picker for Dota 2! A fun little project I am working on!
+###### Dota 2 Hero Picker
+
+A simple web app using:
+-Bootstrap
+-BigVideo.js
+-phpMyAdmin
+

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: dotafont;
+    src: url(../fonts/Constantia.ttf);
+}
+
+body {
+	background-image: url("../img/dota2background.jpg");
+}
+
+#heroName {
+	font-family: dotafont;
+	color: black;
+	text-align: center;
+	font-size: 40px;
+}
