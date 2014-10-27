@@ -9,7 +9,17 @@ body {
 
 #heroName {
 	font-family: dotafont;
-	color: black;
+	color: grey;
 	text-align: center;
-	font-size: 40px;
+	font-size: 90px;
+}
+
+#heroportrait {
+	width: 23%;
+	margin: 0 auto;
+}
+
+#navbarItems {
+	width: 30%;
+	margin: 0 auto;
 }
