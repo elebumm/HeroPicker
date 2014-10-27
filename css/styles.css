@@ -1,3 +1,8 @@
+/*Hi. Before observing the code below, please realize that this is horrendous. Seriously, if you get chills by looking at bad CSS then you will trigger
+something in your brain that will live with you for the rest of your life. Keep this in mind when proceeding.*/
+
+
+
 @font-face {
     font-family: dotafont;
     src: url(Constantia.ttf);
@@ -30,6 +35,16 @@ img.center {
 	margin: 0;
 }
 
+#container4buttons {
+	margin-left: auto;
+    margin-right: auto;
+    height: 10%;
+    width: 40%;
+    border-radius: 0px;
+    margin-top: 140px;
+}
+
+
 #slogan {
 	font-size: 16px;
 	text-align: center; 
@@ -40,29 +55,47 @@ img.center {
 #copyright {
 	position: absolute;
 	bottom: 0px;
+	color: white;
+	font-size: 20px;
 }
 
-#buttony /*Probably pick better names for these so in the future you don't get uber confused :P */{
+#buttony /*Probably pick better names for these so in the future you don't get uber confused :P */ /*Oh... I never forget things.... never....*/{
 	background-color: #000000;
-	font-size: 30px;
+	font-size: 30.5px;
 	font-family: dotafont;
+	border-radius: 0px;
+	height: 70px;
 }
 
 #buttony1 {
 	font-family: dotafont;
-	font-size: 30px;
+	font-size: 30.5px;
 	background-color: #CB2322;
+	height: 80px;
 }
 #buttony2 {
 	font-family: dotafont;
-	font-size: 30px;
+	font-size: 30.5px;
 	background-color: #3A7736;
+	height: 80px;
 }
 #buttony3 {
 	font-family: dotafont;
 	font-size: 30px;
 	background-color: #1776A0;
+	border-radius: 0px;
+	height: 80px;
 }
+#information{
+	position: absolute;
+	bottom: 0px;
+	right: 50px;
+	color: white;
+	float: right;
+	font-family: dotafont;
+	font-size: 15px;
+}
+
 
 big-video-wrap{overflow:hidden;position:fixed;height:100%;width:100%;top:0;left:0;}
 #big-video-vid,#big-video-image{position:absolute;}
@@ -77,7 +110,7 @@ big-video-wrap{overflow:hidden;position:fixed;height:100%;width:100%;top:0;left:
 #big-video-control-bound-right{right:-1px}
 #big-video-control-track .ui-slider-handle {opacity:0;}
 #big-video-control-playhead{left:30%;}
-#big-video-control-play{position:absolute;top:0;left:0;height:16px;width:16px;background-image:url('bigvideo.png');}
+
 #big-video-control-timer{position:absolute;top:1px;right:0;color:#fff;font-size:11px;}
 #big-video-control-playhead,#big-video-control-bound-left,#big-video-control-bound-right{position:absolute;top:0;height:16px;width:1px;background:#fff;}
 #big-video-control .ui-slider-handle{border-left:solid 1px #fff; width:16px;height:16px;position:absolute;top:-8px;}

@@ -53,24 +53,19 @@
               <button type="button" class="btn btn-default" id="buttony3">Intelligence</button>
             </div>
 	    </div>
-        <div class="row" id="yolo">
-            <?php
-            $result = get_heroes();
-            while($row = mysqli_fetch_array($result)): ?>
-                <b>Hero name: <?php echo $row['name']; ?></b><br />
-            <?php endwhile; ?>
-            <hr />
-            <h2>Your picked hero:</h2>
-            <?php
-                $name = "some hero"; //Turn this into a form value at some point if wanted
-                $hero = get_hero($name);
-                echo "Name: " . $hero->name . "<br />";
-                echo "Type: " . $hero->type;
-            ?>
-        </div>
+
+
+
+
+
+
+
+<!-- Modal -->
+
+        
 		<p id="copyright">Dota 2 is a registered trademark of Valve Corporation.</p>
-    </div>
-</div>
+        <p id="information">Dota 2 background is made by <a href="http://vimeo.com/krez113">krez113 on vimeo</a></p>
+
     <!-- /.container -->
     <!-- jQuery Version 1.11.0 -->
     <!-- Bootstrap Core JavaScript -->
@@ -91,8 +86,6 @@
         BV.show('img/dota2.mp4',{ambient:true});
     });
     </script>
-    <script>
-video();
-    </script>
+
 </body>
 </html>
