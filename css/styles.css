@@ -59,34 +59,35 @@ img.center {
 	font-size: 20px;
 }
 
-#buttony /*Probably pick better names for these so in the future you don't get uber confused :P */ /*Oh... I never forget things.... never....*/{
+#allButton{
 	background-color: #000000;
 	font-size: 30.5px;
 	font-family: dotafont;
 	border-radius: 0px;
 	height: 70px;
+	width: 430px;
 }
 
-#buttony1 {
+#strengthButton {
 	font-family: dotafont;
 	font-size: 30.5px;
 	background-color: #CB2322;
 	height: 80px;
 }
-#buttony2 {
+#agilityButton {
 	font-family: dotafont;
 	font-size: 30.5px;
 	background-color: #3A7736;
 	height: 80px;
 }
-#buttony3 {
+#intelligenceButton {
 	font-family: dotafont;
 	font-size: 30px;
 	background-color: #1776A0;
 	border-radius: 0px;
 	height: 80px;
 }
-#information{
+#info{
 	position: absolute;
 	bottom: 0px;
 	right: 50px;
