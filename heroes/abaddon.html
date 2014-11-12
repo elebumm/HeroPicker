@@ -39,7 +39,9 @@
             <div id="navbarItems" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">Strength</a>
+                        <?php $name = ""; 
+                        echo "<a href='../heroes/" . get_strength_hero($name) . ".html'><p>Strength</p></a>"; 
+                        ?>
                     </li>
                     <li>
                         <a href="#">Agility</a>
