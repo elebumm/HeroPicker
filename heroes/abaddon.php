@@ -1,4 +1,6 @@
+<?php require_once('../includes/functions.php'); ?>
 <!DOCTYPE html>
+
 <html class="full" lang="en">
 <!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
 
@@ -26,29 +28,28 @@
     <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+            <div class="navbar-header" id="allbutton">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">All</a>
+                <?php $name = "";echo "<a href='../heroes/" . get_all_hero($name) . ".php'>" . "<button id='allbuttonButton'type='button' class='btn btn-default'>All</a></button>";?>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div id="navbarItems" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div id="navbarItems" id="navbardiv" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <?php $name = ""; 
-                        echo "<a href='../heroes/" . get_strength_hero($name) . ".html'><p>Strength</p></a>"; 
-                        ?>
+                        <?php $name = "";echo "<a href='../heroes/" . get_strength_hero($name) . ".php'>" . "<button id='strengthbutton'type='button' class='btn btn-default'>Strength</a></button>";?>
                     </li>
                     <li>
-                        <a href="#">Agility</a>
+                        <?php $name = "";echo "<a href='../heroes/" . get_agility_hero($name) . ".php'>" . "<button id='agilitybutton' type='button' class='btn btn-default'>Agility</a></button>";?>
                     </li>
                     <li>
-                        <a href="#">Intelligence</a>
+                        <?php $name = "";echo "<a href='../heroes/" . get_intelligence_hero($name) . ".php'>" . "<button id='intelligencebutton' type='button' class='btn btn-default'>Intelligence</a></button>";?>
                     </li>
+                    <li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -56,24 +57,45 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Page Content --> 
- <h1 id="heroName" class="animated fadeInDown">Abaddon</h1>
-              <br>
-<h2 id="slogan">              
-
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, iusto, unde, sunt incidunt id sapiente rerum soluta voluptate harum veniam fuga odit ea pariatur vel eaque sint sequi tenetur eligendi.</p>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
+    <div id="container">
+    <div id="content">
+<h1 id="heroName" class="animated fadeInDown">Abaddon</h1>
+<h2 id="slogan">the Lord of Avernus</h2>
+<br>
 <div id="heroportrait">
     <video width="450" height="300" autoplay loop>
         <source src="heroports/abaddon.webm.webm" type="video/webm" />
     </video>
 </div>
+<img id="stat" src="heroStats/abaddon.png" >
+<br>
+<br>
+<div id="wrap">
+    <div id="left_col">
+        <p id="prosTitle">PROS</p>
+        <ul id="proconlists">
+            <li>Really good support</li>
+            <li>Has basically 2 lives if smart</li>
+            <li>He is the first hero on the list</li>
+            </ul>
+    </div>
+    <div id="right_col">
+        <p id="consTitle">CONS</p>
+        <ul id="proconlists">
+            <li>You are screwed if silenced</li>
+            <li>Most people try and play him as a carry</li>
+            <li>Ultimate activates sometimes when you dont want to</li>
+        </ul>
+    </div>
+</div>
+    </div>
+</div>
+<br>
+<br>
+<br>   
+
+<p>.</p>
+
     
     <!-- /.container -->
 

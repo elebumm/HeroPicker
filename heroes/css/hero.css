@@ -5,21 +5,112 @@
 
 body {
 	background-image: url("../img/dota2background.jpg");
+	padding-bottom: 70px; 
+}
+
+
+#container{
+	width: 100%;
+}
+#content {
+	width:100%;
 }
 
 #heroName {
 	font-family: dotafont;
-	color: grey;
+	color: white;
 	text-align: center;
-	font-size: 90px;
+	font-size: 70px;
+}
+
+#slogan{
+	font-family: dotafont;
+text-align: center;
 }
 
 #heroportrait {
-	width: 23%;
+	width: 30%;
 	margin: 0 auto;
 }
 
+#stat{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+}
 #navbarItems {
-	width: 30%;
+	position: relative;
+	width: 22%;
 	margin: 0 auto;
+	bottom: 10px;
+}
+
+#allbutton{
+	position: relative;
+	bottom: -19px;
+}
+
+#strengthbutton{
+	background-color: #CB2322;
+		font-family: dotafont;
+}
+
+
+#agilitybutton{
+	font-family: dotafont;
+	background-color: #3A7736;
+}
+
+#intelligencebutton{
+	font-family: dotafont;
+
+	background-color: #1776A0;
+
+}
+
+#allbuttonButton{
+	font-family: dotafont;
+
+	background: #000000;
+}
+
+#prosTitle{
+	font-family: dotafont;
+	color: #00FF16;
+	font-size: 50px;
+	-webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: white;
+   text-align: center;
+}
+
+#wrap {
+   width:600px;
+   margin:0 auto;
+}
+#left_col {
+   float:left;
+   width:300px;
+}
+#right_col {
+   float:right;
+   width:300px;
+}
+
+#consTitle{
+	font-family: dotafont;
+	color: #FF0300;
+	font-size: 50px;
+	  -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: white;
+   text-align: center;
+}
+#proconlists {
+	font-size: 20px;
+	color: white;
+
+}
+
+#utube {
+	width: 50%;
 }
